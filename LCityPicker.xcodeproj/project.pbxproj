@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EA6D8661CD1DB0C00FF9DBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D8651CD1DB0C00FF9DBD /* main.m */; };
+		0EA6D8691CD1DB0C00FF9DBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D8681CD1DB0C00FF9DBD /* AppDelegate.m */; };
+		0EA6D86C1CD1DB0C00FF9DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D86B1CD1DB0C00FF9DBD /* ViewController.m */; };
+		0EA6D86F1CD1DB0C00FF9DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6D86D1CD1DB0C00FF9DBD /* Main.storyboard */; };
+		0EA6D8711CD1DB0C00FF9DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6D8701CD1DB0C00FF9DBD /* Assets.xcassets */; };
+		0EA6D8741CD1DB0C00FF9DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6D8721CD1DB0C00FF9DBD /* LaunchScreen.storyboard */; };
+		0EA6D87F1CD1DB0C00FF9DBD /* LCityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D87E1CD1DB0C00FF9DBD /* LCityPickerTests.m */; };
+		0EA6D88A1CD1DB0C00FF9DBD /* LCityPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D8891CD1DB0C00FF9DBD /* LCityPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EA6D87B1CD1DB0C00FF9DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA6D8591CD1DB0C00FF9DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA6D8601CD1DB0C00FF9DBD;
+			remoteInfo = LCityPicker;
+		};
+		0EA6D8861CD1DB0C00FF9DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA6D8591CD1DB0C00FF9DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA6D8601CD1DB0C00FF9DBD;
+			remoteInfo = LCityPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA6D8611CD1DB0C00FF9DBD /* LCityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA6D8651CD1DB0C00FF9DBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EA6D8671CD1DB0C00FF9DBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EA6D8681CD1DB0C00FF9DBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EA6D86A1CD1DB0C00FF9DBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EA6D86B1CD1DB0C00FF9DBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EA6D86E1CD1DB0C00FF9DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EA6D8701CD1DB0C00FF9DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EA6D8731CD1DB0C00FF9DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EA6D8751CD1DB0C00FF9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA6D87A1CD1DB0C00FF9DBD /* LCityPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCityPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA6D87E1CD1DB0C00FF9DBD /* LCityPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCityPickerTests.m; sourceTree = "<group>"; };
+		0EA6D8801CD1DB0C00FF9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA6D8851CD1DB0C00FF9DBD /* LCityPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCityPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA6D8891CD1DB0C00FF9DBD /* LCityPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCityPickerUITests.m; sourceTree = "<group>"; };
+		0EA6D88B1CD1DB0C00FF9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA6D85E1CD1DB0C00FF9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6D8771CD1DB0C00FF9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6D8821CD1DB0C00FF9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA6D8581CD1DB0C00FF9DBD = {
+			isa = PBXGroup;
+			children = (
+				0EA6D8631CD1DB0C00FF9DBD /* LCityPicker */,
+				0EA6D87D1CD1DB0C00FF9DBD /* LCityPickerTests */,
+				0EA6D8881CD1DB0C00FF9DBD /* LCityPickerUITests */,
+				0EA6D8621CD1DB0C00FF9DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EA6D8621CD1DB0C00FF9DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6D8611CD1DB0C00FF9DBD /* LCityPicker.app */,
+				0EA6D87A1CD1DB0C00FF9DBD /* LCityPickerTests.xctest */,
+				0EA6D8851CD1DB0C00FF9DBD /* LCityPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA6D8631CD1DB0C00FF9DBD /* LCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6D8671CD1DB0C00FF9DBD /* AppDelegate.h */,
+				0EA6D8681CD1DB0C00FF9DBD /* AppDelegate.m */,
+				0EA6D86A1CD1DB0C00FF9DBD /* ViewController.h */,
+				0EA6D86B1CD1DB0C00FF9DBD /* ViewController.m */,
+				0EA6D86D1CD1DB0C00FF9DBD /* Main.storyboard */,
+				0EA6D8701CD1DB0C00FF9DBD /* Assets.xcassets */,
+				0EA6D8721CD1DB0C00FF9DBD /* LaunchScreen.storyboard */,
+				0EA6D8751CD1DB0C00FF9DBD /* Info.plist */,
+				0EA6D8641CD1DB0C00FF9DBD /* Supporting Files */,
+			);
+			path = LCityPicker;
+			sourceTree = "<group>";
+		};
+		0EA6D8641CD1DB0C00FF9DBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6D8651CD1DB0C00FF9DBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EA6D87D1CD1DB0C00FF9DBD /* LCityPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6D87E1CD1DB0C00FF9DBD /* LCityPickerTests.m */,
+				0EA6D8801CD1DB0C00FF9DBD /* Info.plist */,
+			);
+			path = LCityPickerTests;
+			sourceTree = "<group>";
+		};
+		0EA6D8881CD1DB0C00FF9DBD /* LCityPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6D8891CD1DB0C00FF9DBD /* LCityPickerUITests.m */,
+				0EA6D88B1CD1DB0C00FF9DBD /* Info.plist */,
+			);
+			path = LCityPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EA6D8601CD1DB0C00FF9DBD /* LCityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA6D88E1CD1DB0C00FF9DBD /* Build configuration list for PBXNativeTarget "LCityPicker" */;
+			buildPhases = (
+				0EA6D85D1CD1DB0C00FF9DBD /* Sources */,
+				0EA6D85E1CD1DB0C00FF9DBD /* Frameworks */,
+				0EA6D85F1CD1DB0C00FF9DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCityPicker;
+			productName = LCityPicker;
+			productReference = 0EA6D8611CD1DB0C00FF9DBD /* LCityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EA6D8791CD1DB0C00FF9DBD /* LCityPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA6D8911CD1DB0C00FF9DBD /* Build configuration list for PBXNativeTarget "LCityPickerTests" */;
+			buildPhases = (
+				0EA6D8761CD1DB0C00FF9DBD /* Sources */,
+				0EA6D8771CD1DB0C00FF9DBD /* Frameworks */,
+				0EA6D8781CD1DB0C00FF9DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA6D87C1CD1DB0C00FF9DBD /* PBXTargetDependency */,
+			);
+			name = LCityPickerTests;
+			productName = LCityPickerTests;
+			productReference = 0EA6D87A1CD1DB0C00FF9DBD /* LCityPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EA6D8841CD1DB0C00FF9DBD /* LCityPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA6D8941CD1DB0C00FF9DBD /* Build configuration list for PBXNativeTarget "LCityPickerUITests" */;
+			buildPhases = (
+				0EA6D8811CD1DB0C00FF9DBD /* Sources */,
+				0EA6D8821CD1DB0C00FF9DBD /* Frameworks */,
+				0EA6D8831CD1DB0C00FF9DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA6D8871CD1DB0C00FF9DBD /* PBXTargetDependency */,
+			);
+			name = LCityPickerUITests;
+			productName = LCityPickerUITests;
+			productReference = 0EA6D8851CD1DB0C00FF9DBD /* LCityPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EA6D8591CD1DB0C00FF9DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = TOSHIBA;
+				TargetAttributes = {
+					0EA6D8601CD1DB0C00FF9DBD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0EA6D8791CD1DB0C00FF9DBD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0EA6D8601CD1DB0C00FF9DBD;
+					};
+					0EA6D8841CD1DB0C00FF9DBD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0EA6D8601CD1DB0C00FF9DBD;
+					};
+				};
+			};
+			buildConfigurationList = 0EA6D85C1CD1DB0C00FF9DBD /* Build configuration list for PBXProject "LCityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EA6D8581CD1DB0C00FF9DBD;
+			productRefGroup = 0EA6D8621CD1DB0C00FF9DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EA6D8601CD1DB0C00FF9DBD /* LCityPicker */,
+				0EA6D8791CD1DB0C00FF9DBD /* LCityPickerTests */,
+				0EA6D8841CD1DB0C00FF9DBD /* LCityPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EA6D85F1CD1DB0C00FF9DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6D8741CD1DB0C00FF9DBD /* LaunchScreen.storyboard in Resources */,
+				0EA6D8711CD1DB0C00FF9DBD /* Assets.xcassets in Resources */,
+				0EA6D86F1CD1DB0C00FF9DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6D8781CD1DB0C00FF9DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6D8831CD1DB0C00FF9DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA6D85D1CD1DB0C00FF9DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6D86C1CD1DB0C00FF9DBD /* ViewController.m in Sources */,
+				0EA6D8691CD1DB0C00FF9DBD /* AppDelegate.m in Sources */,
+				0EA6D8661CD1DB0C00FF9DBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6D8761CD1DB0C00FF9DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6D87F1CD1DB0C00FF9DBD /* LCityPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6D8811CD1DB0C00FF9DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6D88A1CD1DB0C00FF9DBD /* LCityPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EA6D87C1CD1DB0C00FF9DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA6D8601CD1DB0C00FF9DBD /* LCityPicker */;
+			targetProxy = 0EA6D87B1CD1DB0C00FF9DBD /* PBXContainerItemProxy */;
+		};
+		0EA6D8871CD1DB0C00FF9DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA6D8601CD1DB0C00FF9DBD /* LCityPicker */;
+			targetProxy = 0EA6D8861CD1DB0C00FF9DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EA6D86D1CD1DB0C00FF9DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA6D86E1CD1DB0C00FF9DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EA6D8721CD1DB0C00FF9DBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA6D8731CD1DB0C00FF9DBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EA6D88C1CD1DB0C00FF9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EA6D88D1CD1DB0C00FF9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EA6D88F1CD1DB0C00FF9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TOSHIBA.TIH.LCityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EA6D8901CD1DB0C00FF9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TOSHIBA.TIH.LCityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0EA6D8921CD1DB0C00FF9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TOSHIBA.TIH.LCityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCityPicker.app/LCityPicker";
+			};
+			name = Debug;
+		};
+		0EA6D8931CD1DB0C00FF9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TOSHIBA.TIH.LCityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCityPicker.app/LCityPicker";
+			};
+			name = Release;
+		};
+		0EA6D8951CD1DB0C00FF9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TOSHIBA.TIH.LCityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCityPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0EA6D8961CD1DB0C00FF9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TOSHIBA.TIH.LCityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCityPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA6D85C1CD1DB0C00FF9DBD /* Build configuration list for PBXProject "LCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6D88C1CD1DB0C00FF9DBD /* Debug */,
+				0EA6D88D1CD1DB0C00FF9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA6D88E1CD1DB0C00FF9DBD /* Build configuration list for PBXNativeTarget "LCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6D88F1CD1DB0C00FF9DBD /* Debug */,
+				0EA6D8901CD1DB0C00FF9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EA6D8911CD1DB0C00FF9DBD /* Build configuration list for PBXNativeTarget "LCityPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6D8921CD1DB0C00FF9DBD /* Debug */,
+				0EA6D8931CD1DB0C00FF9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EA6D8941CD1DB0C00FF9DBD /* Build configuration list for PBXNativeTarget "LCityPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6D8951CD1DB0C00FF9DBD /* Debug */,
+				0EA6D8961CD1DB0C00FF9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EA6D8591CD1DB0C00FF9DBD /* Project object */;
+}
