@@ -15,6 +15,9 @@
 		0EA6D8741CD1DB0C00FF9DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6D8721CD1DB0C00FF9DBD /* LaunchScreen.storyboard */; };
 		0EA6D87F1CD1DB0C00FF9DBD /* LCityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D87E1CD1DB0C00FF9DBD /* LCityPickerTests.m */; };
 		0EA6D88A1CD1DB0C00FF9DBD /* LCityPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D8891CD1DB0C00FF9DBD /* LCityPickerUITests.m */; };
+		0EA6D89B1CD1DB8900FF9DBD /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6D8981CD1DB8900FF9DBD /* area.plist */; settings = {ASSET_TAGS = (); }; };
+		0EA6D89C1CD1DB8900FF9DBD /* LCityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6D89A1CD1DB8900FF9DBD /* LCityPickerView.m */; settings = {ASSET_TAGS = (); }; };
+		0EA6D89E1CD1DC2700FF9DBD /* timg-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6D89D1CD1DC2700FF9DBD /* timg-1.jpeg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		0EA6D8851CD1DB0C00FF9DBD /* LCityPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCityPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA6D8891CD1DB0C00FF9DBD /* LCityPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCityPickerUITests.m; sourceTree = "<group>"; };
 		0EA6D88B1CD1DB0C00FF9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA6D8981CD1DB8900FF9DBD /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		0EA6D8991CD1DB8900FF9DBD /* LCityPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCityPickerView.h; sourceTree = "<group>"; };
+		0EA6D89A1CD1DB8900FF9DBD /* LCityPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCityPickerView.m; sourceTree = "<group>"; };
+		0EA6D89D1CD1DC2700FF9DBD /* timg-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-1.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		0EA6D8631CD1DB0C00FF9DBD /* LCityPicker */ = {
 			isa = PBXGroup;
 			children = (
+				0EA6D8971CD1DB8900FF9DBD /* LCityPickerView */,
 				0EA6D8671CD1DB0C00FF9DBD /* AppDelegate.h */,
 				0EA6D8681CD1DB0C00FF9DBD /* AppDelegate.m */,
 				0EA6D86A1CD1DB0C00FF9DBD /* ViewController.h */,
@@ -117,6 +125,7 @@
 		0EA6D8641CD1DB0C00FF9DBD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EA6D89D1CD1DC2700FF9DBD /* timg-1.jpeg */,
 				0EA6D8651CD1DB0C00FF9DBD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +147,16 @@
 				0EA6D88B1CD1DB0C00FF9DBD /* Info.plist */,
 			);
 			path = LCityPickerUITests;
+			sourceTree = "<group>";
+		};
+		0EA6D8971CD1DB8900FF9DBD /* LCityPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6D8981CD1DB8900FF9DBD /* area.plist */,
+				0EA6D8991CD1DB8900FF9DBD /* LCityPickerView.h */,
+				0EA6D89A1CD1DB8900FF9DBD /* LCityPickerView.m */,
+			);
+			path = LCityPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA6D8741CD1DB0C00FF9DBD /* LaunchScreen.storyboard in Resources */,
+				0EA6D89B1CD1DB8900FF9DBD /* area.plist in Resources */,
 				0EA6D8711CD1DB0C00FF9DBD /* Assets.xcassets in Resources */,
 				0EA6D86F1CD1DB0C00FF9DBD /* Main.storyboard in Resources */,
+				0EA6D89E1CD1DC2700FF9DBD /* timg-1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +293,7 @@
 			files = (
 				0EA6D86C1CD1DB0C00FF9DBD /* ViewController.m in Sources */,
 				0EA6D8691CD1DB0C00FF9DBD /* AppDelegate.m in Sources */,
+				0EA6D89C1CD1DB8900FF9DBD /* LCityPickerView.m in Sources */,
 				0EA6D8661CD1DB0C00FF9DBD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
